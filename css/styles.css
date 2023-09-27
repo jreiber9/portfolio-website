@@ -184,6 +184,12 @@ button:focus,
 }
 
 /* start grid fallback */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
 .grid__item {
   display: inline-block;
   width: 33%;
@@ -273,4 +279,3 @@ button:focus,
     transform: translate(100px, 48px);
   }
 }
-
